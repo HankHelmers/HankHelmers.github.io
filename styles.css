@@ -1,0 +1,12 @@
+
+
+* {
+    background-color: rgb(73, 68, 68);
+    color: white; 
+    font-family: sans-serif; 
+}
+
+.navbar {
+    border-left: 1em solid darkcyan;
+    align-content: center;
+}
