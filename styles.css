@@ -1,12 +1,69 @@
 
+:root {
+    --main-bg-color: #373d20; /*rgb(73, 68, 68);*/
+    --main-txt-color: #eff1ed;
+    --accent-color: #717744;
+    --accent-color-2: #766153;
+    /* Color palette from: https://coolors.co/palette/eff1ed-373d20-717744-bcbd8b-766153 */
+}
 
 * {
-    background-color: rgb(73, 68, 68);
-    color: white; 
+    background-color: var(--main-bg-color);
+    color: var(--main-txt-color); 
     font-family: sans-serif; 
 }
 
-.navbar {
-    border-left: 1em solid darkcyan;
-    align-content: center;
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    /* background-color: blueviolet; */
+}
+
+/* NAV BAR & FOOTER */
+nav, footer {
+    display: flex;
+    flex-direction: row; 
+    /* background-color: aqua; */
+    align-items: center;
+
+    flex-grow: 0;
+    flex-shrink: 0;
+
+    border-left: 1em solid var(--accent-color);
+}
+
+nav h1 {
+    font-size: 2em;
+    padding-left: 1em;
+}
+
+a {
+    font-size: 1.5em;
+    padding: 1em;
+    justify-content: right;
+    /* background-color: blue; */
+}
+
+.flex-title {
+    flex: 3 auto;
+    justify-content: left;
+    /* background-color: aquamarine; */
+}
+
+/* MAIN */
+main {
+    flex-grow: 1;
+    padding: 1em;
+    display: inline-flex;   
+}
+
+img {
+    width: 40%;
+    justify-items: center;
+    margin: 1em;
+    border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
 }
