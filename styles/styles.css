@@ -52,6 +52,10 @@ a {
     /* background-color: blue; */
 }
 
+.in-text-link {
+    font-size: 1em;
+}
+
 /* a:visited {
     color: var(--accent-color);
 } */
@@ -66,17 +70,42 @@ main {
     flex-grow: 0;
     padding: 1em;
     flex-direction: column;
+    /* background-color: purple; */
+}
+
+.box-left {
+    float: left;
+    justify-items: center;
 }
 
 img {
     width: 40%;
     height: 40%;
-    float: left;
-    justify-items: center;
     margin: 1em;
     border-radius: 1em;
     -webkit-border-radius: 1em;
     -moz-border-radius: 1em;
     -ms-border-radius: 1em;
     -o-border-radius: 1em;
+}
+
+.img-smaller {
+    width: 20%;
+    margin-right: 2em;
+}
+
+iframe {
+    width: 50%;
+    height: 100%;
+    aspect-ratio: 16 / 9;
+    margin-right: 2em;
+    border-radius: 1em;
+}
+
+.project {
+    background-color: aquamarine;
+}
+
+.resume {
+    margin: 1em 10em 1em 10em;
 }
