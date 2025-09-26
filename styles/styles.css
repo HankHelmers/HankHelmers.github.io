@@ -56,9 +56,9 @@ a {
     font-size: 1em;
 }
 
-/* a:visited {
+a:visited {
     color: var(--accent-color);
-} */
+}
 
 .inactive {
     color: var(--accent-color-2);
