@@ -52,13 +52,14 @@ a {
 
 /* MAIN */
 main {
-    flex-grow: 1;
+    flex-grow: 0;
     padding: 1em;
     display: inline-flex;   
 }
 
 img {
     width: 40%;
+    height: 40%;
     justify-items: center;
     margin: 1em;
     border-radius: 1em;
